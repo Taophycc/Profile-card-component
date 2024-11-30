@@ -139,27 +139,35 @@ h3 {
 
 
 
-h2 {
-    text-align: center; 
-    padding: 0;
-    margin-bottom: 0;
-    color: hsl(229, 23%, 23%);
-    font-weight: 700;
-    font-size: 1rem;
+    h2 {
+        text-align: center; 
+        padding: 0;
+        margin-bottom: 0;
+        color: hsl(229, 23%, 23%);
+        font-weight: 700;
+        font-size: 1rem;
+    
+    }
+    span {
+        font-size: 1rem;
+    }
+    
+    #london {
+        font-size: .9rem;
+    }
 
-}
-span {
-    font-size: 1rem;
-}
+    .footer {
+        margin-block: .5em;
+        padding-top: .5em;
+    }
 
-#london {
-    font-size: .9rem;
-}
+    h3 {
+        font-size: 1em;
+    }
 
-.footer {
-    margin-block: .5em;
-    padding-top: .5em;
-}
+    .stat-2 p {
+        padding-left: 0.2em;
+    }
 
  }
 
