@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+/* body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh sans', sans-serif;
+}
+
+/* background */
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(bg-pattern-top.svg),url(bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    
+
+} 
+
+/* card */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    max-height: 65%;
+    min-width: 30%;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    height: 12.8em;
+}
+
+/* header picture */
+.image-container {
+    width: 100%;
+    margin: 0;
+}
+.header-picture {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* profile picture */
+
+.profile-picture {
+    border-radius: 50%;
+    border: solid 10px white;
+    position: relative;
+    left: 8.05em;
+    bottom: 5em;
+    width: 35%;
+}
+
+
+h2 {
+    text-align: center; 
+    padding: 0;
+    margin-bottom: 0;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 1.3rem;
+
+
+}
+span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 0;
+    margin-left: .6em;
+    font-size: 1.2rem;
+}
+
+#london {
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: .5px solid hsl(0, 0%, 59%) ;
+    margin-block: 1em;
+    padding-top: 1em;
+}
+
+.stat h3 {
+    padding-left: 0.6em;
+}
+
+.stat-2 p {
+    padding-left: 0.5em;
+}
+
+h3 {
+    margin-bottom: 0;
+    color: hsl(229, 23%, 23%);
+    padding: 0;
+    font-size: 1.3rem;
+}
+.footer p {
+    color: hsl(227, 10%, 46%);
+    font-size: .8rem;
+    margin-top: .5em;
+    justify-content: space-between;
+ }
+
+/* 360 < X < 375 */
+ @media (min-width:360px) and (max-width:375px) {
+    .card {
+        margin-inline: 1em;
+        min-height: 50%;
+    }
+
+    .container {
+        height: 12em;
+    }
+
+    .header-picture {
+        height: 170px;
+    }
+    
+    .profile-picture {
+        left: 6.3em;
+        bottom: 4em;
+        border: solid 7px white;
+    }
+
+
+
+h2 {
+    text-align: center; 
+    padding: 0;
+    margin-bottom: 0;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+span {
+    font-size: 1rem;
+}
+
+#london {
+    font-size: .9rem;
+}
+
+.footer {
+    margin-block: .5em;
+    padding-top: .5em;
+}
+
+ }
+
