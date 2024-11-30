@@ -17,8 +17,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://)
-- Live Site URL: [Add live site URL here](https://taophycc.github.io/Profile-card-component)
+- Solution URL: [taophycc](https://github.com/Taophycc/Profile-card-component.git)
+- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Profile-card-component/)
 
 ### Built with
 
